@@ -437,7 +437,7 @@ footer .column ul li:hover{
 
 @media screen and (max-width:395px) {
     header{
-/*         height: 85vh; */
+        height: 55vh;
         border-bottom: 10px solid grey;
     }
     .navbar{
@@ -476,7 +476,6 @@ footer .column ul li:hover{
         text-align: center;
         line-height: 1.5;
         padding: 10px;
-        color:red;
     }
     .banner-text h1 {
         font-weight: 800;
@@ -486,6 +485,7 @@ footer .column ul li:hover{
       .banner-text h3 {
         font-size: 20px;
         font-weight:600;
+        color:red;
       }
     .banner-text div form input {
         width: 310px;
