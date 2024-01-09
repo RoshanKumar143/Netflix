@@ -472,10 +472,11 @@ footer .column ul li:hover{
 
     .banner-text {
         position: absolute;
-        top: 25%;
+        top: 10%;
         text-align: center;
         line-height: 1.5;
         padding: 10px;
+        color:red;
     }
     .banner-text h1 {
         font-weight: 800;
