@@ -437,7 +437,7 @@ footer .column ul li:hover{
 
 @media screen and (max-width:395px) {
     header{
-        height: 75vh;
+        height: 85vh;
         border-bottom: 10px solid grey;
     }
     .navbar{
