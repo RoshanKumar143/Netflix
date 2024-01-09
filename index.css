@@ -246,5 +246,96 @@ select{
         border: none;
       }
 }
+
+@media screen and (max-width:391px) {
+    header{
+        height: 60vh;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        width: 100%;
+    }
+    .title{
+        /* width: 80px; */
+        width: 31%;
+        height: 30px;
+    }
+    .nav-item{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        /* width: 50%; */
+    }
+    .login{
+        
+    }
+    .btn-login{
+        padding: 8px 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+    select{
+        border-radius: 5px;
+        border: 1px solid grey;
+        padding: 3px;
+        font-size: 17px;
+        font-weight: 400;
+        opacity: 0.65;
+        height: 40px;
+    }
+    #option{
+        width: 10px;
+        color: red;
+        background-color: #FFFFFF;
+        border: none;
+        font-size: 12px;
+    }
+
+
+    .banner-text {
+        margin: 0 auto;
+        position: absolute;
+        top: 10%;
+        text-align: center;
+        line-height: 1.5;
+        padding: 10px;
+    }
+    .banner-text h1 {
+        margin: 0 auto;
+        font-weight: 800;
+        font-size: 35px;
+        color: rgb(222, 237, 229);
+      }
+      .banner-text h3 {
+        font-size: 23px;
+        font-weight:600;
+      }
+    .banner-text div form input {
+        width: 310px;
+        height: 60px;
+        opacity: 0.55;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin-right: 1%;
+        font-size: 19px;
+        padding-left: 1%;
+        color: #ffff;
+        margin: 25px 0px;
+      }
+      .banner-text div form button {
+        width: 200px;
+        height: 55px;
+        border-radius: 5px;
+        font-size:23px;
+        font-weight: 700;
+        border: none;
+      }
+}
   
 
