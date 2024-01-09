@@ -247,7 +247,7 @@ select{
       }
 }
 
-@media screen and (max-width:391px) {
+@media screen and (max-width:395px) {
     header{
         height: 60vh;
     }
