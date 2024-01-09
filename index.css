@@ -437,7 +437,7 @@ footer .column ul li:hover{
 
 @media screen and (max-width:395px) {
     header{
-        height: 100vh;
+        height: 60vh;
         border-bottom: 10px solid grey;
     }
     .navbar{
@@ -472,7 +472,7 @@ footer .column ul li:hover{
 
     .banner-text {
         position: absolute;
-        top: 15%;
+        top: 25%;
         text-align: center;
         line-height: 1.5;
         padding: 10px;
