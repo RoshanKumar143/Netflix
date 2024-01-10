@@ -472,7 +472,7 @@ footer .column ul li:hover{
 
     .banner-text {
         position: absolute;
-        top: 18%;
+        top: 25%;
         text-align: center;
         line-height: 1.5;
         padding: 10px;
@@ -480,7 +480,8 @@ footer .column ul li:hover{
     .banner-text h1 {
         font-weight: 800;
         font-size: 32px;
-        color: rgb(222, 237, 229);
+/*         color: rgb(222, 237, 229); */
+        color:green;
       }
       .banner-text h3 {
         font-size: 20px;
