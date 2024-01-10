@@ -313,47 +313,89 @@ footer .column ul li:hover{
 
   /* Responsiveness */
 
-  @media screen and (max-width:1100px) {
-    .navbar{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: 0px 40px;
-        padding: 29px;
+@media screen and (max-width:1100px) {
+  /* .navbar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0px 40px;
+      padding: 29px;
+  } */
+  .banner-text h1 {
+      margin: 0 auto;
+      font-weight: 700;
+      font-size: 51px;
+      /* color: #d80404; */
+      color: #e1dede;
     }
-    .banner-text h1 {
-        margin: 0 auto;
-        font-weight: 700;
-        font-size: 51px;
-        /* color: #d80404; */
-        color: #e1dede;
-      }
-      .banner-text h3 {
-        margin-top: 2%;
-        font-size: 30px;
-        font-weight:400;
-        /* color: #d80404; */
-        color: #e1dede;
-      }
-      .banner-text div form input {
-        width: 33%;
-        height: 70px;
-        opacity: 0.55;
-        border: 1px solid white;
-        border-radius: 5px;
-        margin-right: 1%;
-        font-size: 19px;
-        padding-left: 1%;
-        color: #ffff;
-      }
-      .banner-text div form button {
-        width: 19%;
-        border-radius: 5px;
-        font-size:25px;
-        font-weight: 600;
-        border: none;
-      }
-  }
+    .banner-text h3 {
+      margin-top: 2%;
+      font-size: 30px;
+      font-weight:400;
+      /* color: #d80404; */
+      color: #e1dede;
+    }
+    .banner-text div form input {
+      width: 33%;
+      height: 70px;
+      opacity: 0.55;
+      border: 1px solid white;
+      border-radius: 5px;
+      margin-right: 1%;
+      font-size: 19px;
+      padding-left: 1%;
+      color: #ffff;
+    }
+    .banner-text div form button {
+      width: 19%;
+      border-radius: 5px;
+      font-size:25px;
+      font-weight: 600;
+      border: none;
+    }
+
+    /* kids-profile-section */
+    /* section{
+      max-width: 100%; 
+      border-bottom: 10px solid grey; 
+      padding: 100px;
+    } */
+    /* .container{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin: 0 10%;
+    } */
+.kids-left-section{
+  /* width: 500px; */
+  /* border: 1px solid red; */
+  /* margin-right: 400px; */
+}
+.kids-left-section img{
+  width: 300px;
+}
+.kids-right-section{
+  /* width: 40%; */
+  /* border: 1px solid red; */
+}
+.kids-right-section h1{
+  font-size: 52px;
+  font-weight: 800;
+}
+.kids-right-section h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.accordion-text button{
+  width: 160px;
+  /* padding: 10px; */
+  height: 55px;
+  font-size: 20px;
+  /* cursor: pointer; */
+  /* border: none; */
+  /* border-radius: 5px; */
+}
+}
 
   
   @media screen and (max-width:1035px) {
