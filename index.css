@@ -556,8 +556,8 @@ footer .column ul li:hover{
     .banner-text h1 {
         font-weight: 800;
         font-size: 32px;
-/*         color: rgb(222, 237, 229); */
-        color:green;
+        color: rgb(222, 237, 229);
+/*         color:green; */
       }
       .banner-text h3 {
         font-size: 20px;
