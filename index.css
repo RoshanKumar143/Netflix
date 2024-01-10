@@ -313,7 +313,7 @@ footer .column ul li:hover{
 
   /* Responsiveness */
 
-@media screen and (max-width:1201px){
+@media screen and (max-width:1251px){
   header{
     height: 120vh;
     border-bottom: 10px solid grey;
